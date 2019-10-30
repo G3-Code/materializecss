@@ -18,8 +18,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Materialize CSS</title>
     <style>
-      .box {
-        height: 20rem;
+      .row > div {
+        line-height: 60px;
+        padding: 10px;
+        background: #ddd;
+        border: 1px solid #fff;
       }
     </style>
   </head>
@@ -27,7 +30,26 @@
     <div class="container">
       <h4 class="pink lighten-5">Grid</h4>
       <div class="row">
-        <div class="col s1">First</div>
+        <div class="col s3">Content</div>
+        <div class="col s3">Content</div>
+        <div class="col s3">Content</div>
+        <div class="col s3">Content</div>
+      </div>
+
+      <div class="row">
+        <div class="col s6 m3">Content</div>
+        <div class="col s6 m3">Content</div>
+        <div class="col s6 m3">Content</div>
+        <div class="col s6 m3">Content</div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m6 l4">Content</div>
+        <div class="col s12 m6 l4">Content</div>
+        <div class="col s12 m6 l4">Content</div>
+        <div class="col s12 m6 l4">Content</div>
+        <div class="col s12 m6 l4">Content</div>
+        <div class="col s12 m6 l4">Content</div>
       </div>
     </div>
   </body>
